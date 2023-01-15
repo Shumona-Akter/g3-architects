@@ -225,11 +225,44 @@ nav{
 }
 /* ===== feature-love-enjoy end ===== */
 
+/* our recent work start */
+#our-work{
+    margin: 130px 0;
+
+}
+#our-work .section-title {
+    text-align: center;
+}
+#our-work .para{
+    margin: 30px 250px;
+    text-align: center;
+}
+#our-work .work-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#our-work .work-image .image-item{
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#our-work .work-image .image-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* our recent work end */
+
 /* ===== some-facts sart ===== */
 #some-facts{
     margin: 130px 0;
 }
+#some-facts .section-title{
+    text-align: center;
+}
 #some-facts .para{
+    text-align: center;
     margin: 21px 0 100px;
 }
 #some-facts .para span{
@@ -356,7 +389,9 @@ footer p{
     #banner h1{
         font-size: 30px;
         line-height: 45px;
+        margin-top: 20px;
     }
+    
     #banner h1 span{
         display: inline;
     }
@@ -424,14 +459,38 @@ footer p{
     }
     #feature-love-enjoy .experience{
         padding: 20px 18px;
-        left: 0px;
+        left: 50px;
         font-size: 25px;
     }
     #feature-love-enjoy .experience span{
         font-size: 18px;
     }
     /* ===== feature-love-enjoy end ===== */
-
+    /* recent our work part */
+    #our-work{
+        margin-bottom: 50px;
+    
+    }
+    #our-work .section-title {
+        text-align: left;
+    }
+    #our-work .para{
+        margin: 30px 0;
+        text-align: left;
+        padding-left: 20px;
+    }
+    #our-work .work-image{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    #our-work .work-image .image-item{
+        width: 100%;
+    }
+    #our-work .work-image .image-item img{
+        width: 100%;
+    }
+    
+    /* our recent work end */
     /* ===== some-facts start ===== */
     #some-facts{
         margin: 80px 0;
