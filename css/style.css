@@ -44,7 +44,8 @@
     line-height: 23px;
     color: var(--dark01);
 }
-/* ===== common css ends */
+/* ===== common css ends ===== */
+/* ===== header part start ===== */
 header{
     background: rgba(255, 144, 14, 0.1);
     padding: 50px 0;
@@ -95,7 +96,7 @@ nav{
 #banner .banner-img img{
     width: 100%;
 }
-/* ===== banner section start ===== */
+/* ===== banner section end ===== */
 /* ===== header part end ===== */
 
 
@@ -225,7 +226,7 @@ nav{
 }
 /* ===== feature-love-enjoy end ===== */
 
-/* our recent work start */
+/* ===== our recent work start ===== */
 #our-work{
     margin: 130px 0;
 
@@ -252,7 +253,7 @@ nav{
     height: 100%;
     object-fit: cover;
 }
-/* our recent work end */
+/* ===== our recent work end =====*/
 
 /* ===== some-facts sart ===== */
 #some-facts{
@@ -358,34 +359,33 @@ footer p{
         width: 100%;
         margin: 0 ;
     }
+    .button{
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    .section-title{
+        font-size: 30px;
+        text-align: left;
+        padding-left: 20px;
+
+    }
+    /* common */
     nav{
        flex-direction: column;
        align-items: flex-start;
        flex-wrap: nowrap;
        margin:0 20px;
     }
-    .section-title{
-        font-size: 40px;
-        text-align: left;
-        padding-left: 20px;
-
-    }
+    
     .menu ul {
         flex-direction: column;
     }
     .menu ul li{
         margin-top: 20px;
     }
-    /* nav part end */
+    /*===== nav part end ===== */
+
 /* ===== banner section start ===== */
-     .button{
-        font-size: 18px;
-        padding: 10px 15px;
-    }
-    .section-title{
-        font-size: 30px;
-    }
-    /* common button */
     #banner h1{
         font-size: 30px;
         line-height: 45px;
@@ -396,7 +396,7 @@ footer p{
         display: inline;
     }
     #banner .para{
-        padding: 0;
+        padding: 20px;
     }
    
     #banner .banner-content{
@@ -431,7 +431,8 @@ footer p{
         line-height: 40px;
     }
 
-    /* feature section end */
+    /* ==== feature section end ===== */
+
 /* ===== feature-love-enjoy start ===== */
     #feature-love-enjoy .feature-content-img{
         flex-direction: column;
@@ -466,7 +467,8 @@ footer p{
         font-size: 18px;
     }
     /* ===== feature-love-enjoy end ===== */
-    /* recent our work part */
+
+    /* recent our work part start */
     #our-work{
         margin-bottom: 50px;
     
@@ -490,14 +492,15 @@ footer p{
         width: 100%;
     }
     
-    /* our recent work end */
+    /* ===== our recent work end ===== */
+
     /* ===== some-facts start ===== */
     #some-facts{
         margin: 80px 0;
     }
     #some-facts .para{
         margin: 21px 0 50px;
-        padding-left: 20px;
+        padding: 20px;
     }
     #some-facts .para span{
         display: inline;
@@ -508,11 +511,15 @@ footer p{
         place-items: center;
     }
     /* ===== some-facts end ===== */
+
     /* ===== sponspors part sart ===== */
-    
+    #sponspors .section-title{
+        text-align: center;
+        padding-left: 0;
+    }
     #sponspors .para{
         padding: 20px;
-        text-align: left;
+        text-align: center;
     }
     #sponspors .spon-brand{
         grid-template-columns: repeat(1, 1fr);
@@ -520,7 +527,8 @@ footer p{
         gap: 20px;
     }
     /* ===== sponspors part end ===== */
-    /* main part end */
+
+    /* ==== main part end ==== */
     footer{
        margin-top: 20px;
        margin-bottom: 0px;
@@ -531,4 +539,5 @@ footer p{
     footer p{
         font-size: 16px;
     }
+    /* footer end */
   }
