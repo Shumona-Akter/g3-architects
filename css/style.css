@@ -154,6 +154,7 @@ nav{
     display: flex;
     gap: 70px;
 }
+
 #feature-love-enjoy .love-content{
     width: 50%;
 }
@@ -268,9 +269,55 @@ nav{
 #some-facts .item:hover p{
     color: var(--light-cl);
 }
-/* ===== some-facts sart ===== */
+/* ===== some-facts part end ===== */
+
+
+/* ===== sponspors part sart ===== */
+#sponspors .sponspors-heading{
+    text-align: center;
+}
+#sponspors .para{
+    padding: 24px 300px;
+}
+#sponspors .spon-brand{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+#sponspors .brand-img{
+    width: 200px;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--dark03);
+    transition: all linear 0.5s;
+}
+#sponspors .brand-img:hover{
+    background: var(--dark03);
+}
+#sponspors .brand-img img{
+    width: 100%;
+}
+/* ===== sponspors part end ===== */
 
 /* ===== main part end ===== */
+
+
+/* ===== footer part start ===== */
+footer{
+    margin: 130px 0;
+}
+footer .container{
+    background: #FFF4E7;
+}
+footer p{
+    padding: 38px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--dark02);
+}
+/* ===== footer part end ===== */
+
 
 /* media query mobile device */
 @media only screen and (max-width: 576px) {
@@ -287,6 +334,8 @@ nav{
     .section-title{
         font-size: 40px;
         text-align: left;
+        padding-left: 20px;
+
     }
     .menu ul {
         flex-direction: column;
@@ -333,6 +382,9 @@ nav{
     #feature-section .feature-img{
         grid-template-columns: repeat(1, 1fr);
     }
+    #feature-section .feature-img img{
+        width: 100%;
+    }
    
     #feature-section .feature-content {
         width: 100%;
@@ -355,7 +407,6 @@ nav{
     }
     #feature-love-enjoy .section-title{
         margin-top: 30px;
-        padding-left: 20px;
 
     }
     #feature-love-enjoy .section-title .d-bloc{
@@ -387,6 +438,7 @@ nav{
     }
     #some-facts .para{
         margin: 21px 0 50px;
+        padding-left: 20px;
     }
     #some-facts .para span{
         display: inline;
@@ -396,7 +448,28 @@ nav{
         gap: 20px;
         place-items: center;
     }
-
-
-
+    /* ===== some-facts end ===== */
+    /* ===== sponspors part sart ===== */
+    
+    #sponspors .para{
+        padding: 20px;
+        text-align: left;
+    }
+    #sponspors .spon-brand{
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        gap: 20px;
+    }
+    /* ===== sponspors part end ===== */
+    /* main part end */
+    footer{
+       margin-top: 20px;
+       margin-bottom: 0px;
+    }
+    footer .container{
+        width: 100%;
+    }
+    footer p{
+        font-size: 16px;
+    }
   }
